@@ -108,7 +108,7 @@ describe("index.js", () => {
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ]
-        expect(actionApplyer(13, arrayOfTransforms)).to.equal(4, message)
+        expect(actionApplyer(13, arrayOfTransforms)).to.equal(4)
       })
     })
 
